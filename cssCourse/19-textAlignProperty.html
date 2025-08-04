@@ -5,16 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Text Align</title>
     <style>
-        .box1{
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            margin: 5px;
             height: 200px;
             width: 200px;
             background: yellow;
-            text-align: center;
+            /* text-align: center; */
+        }
+        #box1{
+            text-align: center;            
+        }
+        #box2{
+            text-align: justify;            
+        }
+        #box3{
+            text-align: left;            
+        }
+        #box4{
+            text-align: right;            
         }
     </style>
 </head>
 <body>
-    <div class="box1">This is Box</div>
+    <div id="box1" class="box">This is Box</div>
+    <div id="box2" class="box">This is Box</div>
+    <div id="box3" class="box">This is Box</div>
+    <div id="box4" class="box">This is Box</div>
     
 </body>
 </html>
