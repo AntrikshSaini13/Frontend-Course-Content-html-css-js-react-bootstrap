@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>displayProperty_Block.html</title>
+    <style>
+        .box{
+            height: 100px;
+            width: 100px;
+            background-color: pink;
+            margin: 5px;
+            text-align: center;
+            border: 5px solid black;
+            border-radius: 10px;
+            /* display property */
+            display: none; //by using cant change 
+
+        }
+        .boxs{
+            height: 100px;
+            width: 100px;
+            background-color: pink;
+            margin: 5px;
+            text-align: center;
+            border: 5px solid black;
+            border-radius: 10px;
+            /* display property */
+           
+        }
+        /* this is not working  */
+        #box1{
+            position: absolute;
+            bottom: 10px;
+            left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="Box_1" class="box">Box_1</div>
+    <div id="Box_2" class="box">Box_2</div>
+    <div id="Box_3" class="box">Box_3</div>
+    <!-- here we start new box -->
+    <div id="Box_1" class="boxs">Box_1</div>
+    <div id="Box_2" class="boxs">Box_2</div>
+    <div id="Box_3" class="boxs">Box_3</div>
+</body>
+</html>
